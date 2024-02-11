@@ -37,28 +37,7 @@ ol, ul {
 
 blockquote, q {
 	quotes: none;
-	$('.kz-nav-btn').on('click', function() {
-  let btn = $(this);
-  let type = btn.data('window') // pop current newtab
-  let content = btn.data('href')
-  switch (type) {
-    case 'pop':
-      let title = btn.data('title')
-      let shadeClose = btn.data('shade') === 'true' ? false : true
-      let anim = btn.data('anim') ? btn.data('anim')*1 : 4
-      let area_w = btn.data('area-w') ? btn.data('area-w') : '80%'
-      let area_h = btn.data('area-h') ? btn.data('area-h') : '90%'
-      layer.open({
-          type: 2,
-          title: title,
-          shadeClose: shadeClose,
-          anim:anim,
-          closeBtn: 2,
-          isOutAnim: false,
-          area: [area_w, area_h],
-          content: content
-      });
-}
+	
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
