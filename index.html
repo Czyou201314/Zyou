@@ -15,7 +15,29 @@
  <body class="is-preload"> 
   <!-- Wrapper --> 
   <div id="wrapper"> 
-   <!-- Header --> 
+   <!-- Header -->
+	   </head> 
+ <body> 
+  <div id="bg2" class="bg"></div> 
+  <div id="bg1" class="bg"></div> 
+  <div id="main" class="container"> 
+   <div class="row my-card justify-content-center"> 
+    <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="https://czyou.pages.dev/static/bbyim.mp3"> 
+    </audio> 
+	     <script>
+        // 音乐设置
+        let meting_music_api = "https://api.wuenci.com/meting/api/?type=url&id=416892104";// meting api
+        let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
+        let music_type = "song"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album
+        let music_id = "28661549"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
+        let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random'
+        let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false
+        let music_fixed = false; // 吸底模式
+        let music_volume = 0.7; // 默认音量
+        let music_autoplay = false; // 自动播放
+        let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
+        // TODO 一言设置
+    </script> 
    <header id="header"> 
     <div class="icon"> 
      <img src="images/icon-fa-gem.png" alt="碎念个人引导页" title="碎念个人引导页" class="logo" /> 
