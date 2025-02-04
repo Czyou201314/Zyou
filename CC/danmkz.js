@@ -17,6 +17,15 @@
             "remark": "搜不到就算了",
             "type": 400,
             "version": 5
+        },
+        
+        {
+            "name": "xin弹幕1",
+            "url": "https://zyou.pages.dev/CC/弹幕源.js",
+            "codeID": "GrLpTPWlxvDXv5LsL6iOsY8AUZJWqE5x",
+            "remark": "别那么执着，搜不到就算了",
+            "type": 400,
+            "version": 7
         }
     ],
     "live": [
