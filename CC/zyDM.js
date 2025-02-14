@@ -20,7 +20,7 @@
     "danMu": [
         {
             "name": "V8danm",
-            "url": "./danmV8.js",
+            "url": "https://zyou.pages.dev/CC/danmV8.js",
             "codeID": "uLw1JV3TG3FcJbLXOymm6Xp8d4JC3NjR",
             "remark": "别那么执着，搜不到就算了",
             "type": 400,
