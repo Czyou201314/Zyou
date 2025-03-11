@@ -11,7 +11,7 @@
     ],
     "danMu": [
         {
-            "name": "测试弹幕",
+            "name": "测试弹幕V5",
             "url": "https://zyou.pages.dev/CC/danm.js",
             "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
             "remark": "搜不到就算了",
@@ -19,20 +19,14 @@
             "version": 5
         },
         {
-            "name": "测试弹幕V7",
-            "url": "https://zyou.pages.dev/CC/danmuV7.js",
-            "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
-            "remark": "搜不到就算了",
-            "type": 400,
-            "version": 5
-        },{
             "name": "测试弹幕V8",
-            "url": "https://zyou.pages.dev/CC/danmuV8.js",
+            "url": "https://zyou.pages.dev/CC/danmV8.js",
             "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
             "remark": "搜不到就算了",
             "type": 400,
             "version": 5
-        },{
+        },
+        {
             "name": "测试弹幕V9",
             "url": "https://zyou.pages.dev/CC/danmuV9.js",
             "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
@@ -42,7 +36,7 @@
         },
         
         {
-            "name": "xin弹幕1",
+            "name": "xin弹幕V7",
             "url": "https://zyou.pages.dev/CC/弹幕源.js",
             "codeID": "GrLpTPWlxvDXv5LsL6iOsY8AUZJWqE5x",
             "remark": "别那么执着，搜不到就算了",
