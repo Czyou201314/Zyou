@@ -18,6 +18,28 @@
             "type": 400,
             "version": 5
         },
+        {
+            "name": "测试弹幕V7",
+            "url": "https://zyou.pages.dev/CC/danmuV7.js",
+            "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
+            "remark": "搜不到就算了",
+            "type": 400,
+            "version": 5
+        },{
+            "name": "测试弹幕V8",
+            "url": "https://zyou.pages.dev/CC/danmuV8.js",
+            "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
+            "remark": "搜不到就算了",
+            "type": 400,
+            "version": 5
+        },{
+            "name": "测试弹幕V9",
+            "url": "https://zyou.pages.dev/CC/danmuV9.js",
+            "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
+            "remark": "搜不到就算了",
+            "type": 400,
+            "version": 5
+        },
         
         {
             "name": "xin弹幕1",
