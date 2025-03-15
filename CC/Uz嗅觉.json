@@ -1,0 +1,107 @@
+[
+ 
+    {
+        "name": "[嗅]HDmoli",
+        "api": "https://zyou.pages.dev/CC/moli.js",
+        "webSite": "https://hdmoli.pro",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]八号影视",
+        "api": "https://zyou.pages.dev/CC.八号.js",
+        "webSite": "https://www.bahaotv.com",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]播剧影视",
+        "api": "https://zyou.pages.dev/CC/boju.js",
+        "webSite": "https://www.boju.cc",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]里里影院",
+        "api": "https://zyou.pages.dev/CC/lili.js",
+        "webSite": "https://www.liic.cc",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]爱壹帆",
+        "api": "https://zyou.pages.dev/CC/ai.js",
+        "webSite": "https://www.iyf.lv",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]泥视频",
+        "api": "https://zyou.pages.dev/CC/呢.js",
+        "webSite": "https://www.nivod.vip",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]海纳TV",
+        "api": "https://zyou.pages.dev/CC/海纳.js",
+        "webSite": "https://www.hainatv.net",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]影视工厂",
+        "api": "https://zyou.pages.dev/CC/工厂.js",
+        "webSite": "https://www.ysgc.fun",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]老王电影",
+        "api": "https://zyou.pages.dev/CC/老王.js",
+        "webSite": "https://laowang.co",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]BILFUN",
+        "api": "https://zyou.pages.dev/CC/Blf.js",
+        "webSite": "https://bilfun.cc",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]VidHub",
+        "api": "https://zyou.pages.dev/CC/Vid.js",
+        "webSite": "https://vidhub3.top",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]88影视网",
+        "api": "https://zyou.pages.dev/CC/88.js",
+        "webSite": "https://www.88mv.org",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    },
+    {
+        "name": "[嗅]新视觉影院",
+        "api": "https://zyou.pages.dev/CC/新视觉影院.js",
+        "webSite": "https://www.sypfjy.com",
+        "remark": "v1.6.53 及以上版本可用\n播放/获取失败请关闭多线程,开/关代理重试",
+        "version": "1",
+        "type": 101
+    }
+]
