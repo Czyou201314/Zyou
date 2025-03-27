@@ -1,0 +1,329 @@
+{
+  "danMu": [
+    {
+      "name": "弹幕扩展",
+      "version": 10,
+      "remark": "搜不到就算了，不要那么执着",
+      "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/danMu/js/danMu2.txt",
+      "type": 400
+    },
+    {
+      "name": "弹幕扩展",
+      "version": 1,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/danMu/js/danMu.js",
+      "type": 400
+    }
+  ],
+  "panTools": [
+    {
+      "name": "夸克|123|189|UC 网盘解析工具",
+      "version": 16,
+      "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
+      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/panTools/js/panTools2.js",
+      "type": 300
+    },
+    {
+      "name": "UC、夸克、阿里 网盘解析工具",
+      "version": 14,
+      "remark": "iOS14 以上版本可用",
+      "env": "UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/panTools/js/panTools.js",
+      "type": 300
+    }
+  ],
+  "recommend": [
+    {
+      "name": "豆瓣推荐",
+      "version": 3,
+      "remark": "iOS14 以上版本可用",
+      "codeID": "N7WRmLmOdB8FSh4M",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/recommend/js/douban.txt",
+      "type": 200
+    }
+  ],
+  "vod": [
+    {
+      "name": "在线之家",
+      "version": 2,
+      "webSite": "https://www.zxzja.com",
+      "instance": "zxzj20240620",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/zxzj.js",
+      "type": 100
+    },
+    {
+      "name": "木偶",
+      "version": 2,
+      "webSite": "http://www.muoupan.top",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/mogg.js",
+      "type": 101
+    },
+    {
+      "name": "南风短剧",
+      "version": 1,
+      "webSite": "https://www.nanf.cc",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/nanfdj.js",
+      "type": 101
+    },
+    {
+      "name": "欧乐影视",
+      "version": 2,
+      "webSite": "https://www.olevod.tv",
+      "instance": "olevod20240620",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/olevod.js",
+      "type": 100
+    },
+    {
+      "name": "讴歌盘",
+      "version": 3,
+      "webSite": "https://woog.nxog.eu.org",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/ouge.js",
+      "type": 101
+    },
+    {
+      "name": "云盘资源网",
+      "version": 1,
+      "webSite": "https://res.yunpan.win",
+      "instance": "resYunPan20241120",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/resyunpan.js",
+      "type": 100
+    },
+    {
+      "name": "烧火",
+      "version": 2,
+      "webSite": "https://saohuo.tv",
+      "instance": "saohuo20240623",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/saohuo.js",
+      "type": 100
+    },
+    {
+      "name": "闪电优汐",
+      "version": 1,
+      "webSite": "http://1.95.79.193/",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/shandian.js",
+      "type": 101
+    },
+    {
+      "name": "素白白",
+      "version": 2,
+      "webSite": "https://www.subaibaiys.com",
+      "instance": "sbb20240624",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/subaibai.js",
+      "type": 100
+    },
+    {
+      "name": "玩偶哥哥",
+      "version": 3,
+      "webSite": "http://wogg.xxooo.cf",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/wobg.js",
+      "type": 101
+    },
+    {
+      "name": "特下饭",
+      "version": 1,
+      "webSite": "http://www.xn--ghqy10g1w0a.xyz/",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/xiafan.js",
+      "type": 101
+    },
+    {
+      "name": "小米盘",
+      "version": 3,
+      "webSite": "http://www.mucpan.cc",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/xiaomi.js",
+      "type": 101
+    },
+    {
+      "name": "至臻盘",
+      "version": 3,
+      "webSite": "https://mihdr.top",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/zhizhen.js",
+      "type": 101
+    },
+    {
+      "name": "囧次元",
+      "version": 1,
+      "webSite": "http://yhhy.zshtys888.com",
+      "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/jocy.js",
+      "type": 101
+    },
+    {
+      "name": "金牌影视",
+      "version": 2,
+      "webSite": "https://www.ghw9zwp5.com",
+      "instance": "jpyy20240716",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/jpyy.js",
+      "type": 100
+    },
+    {
+      "name": "蜡笔盘",
+      "version": 3,
+      "webSite": "https://duopan.fun",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/labipan.js",
+      "type": 101
+    },
+    {
+      "name": "老白听书",
+      "version": 2,
+      "webSite": "https://apk-lb-json.fodexin.com",
+      "instance": "laobai20240831",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/laobai.js",
+      "type": 100
+    },
+    {
+      "name": "六趣盘",
+      "version": 1,
+      "webSite": "https://wp.0v.fit",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/liuqu.js",
+      "type": 101
+    },
+    {
+      "name": "mifun",
+      "version": 1,
+      "webSite": "http://www.mifun.tw",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/mifun.js",
+      "type": 101
+    },
+    {
+      "name": "瓜子 app",
+      "version": 2,
+      "remark": "v1.6.53 及以上版本",
+      "webSite": "https://api.9cec79d.com",
+      "codeID": "ra5Z3wtXKshzSMK2",
+      "instance": "gzapp20241001",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/gzapp.txt",
+      "type": 100
+    },
+    {
+      "name": "瓜子web",
+      "version": 2,
+      "webSite": "https://api.zaqohu.com",
+      "instance": "gzys20240822",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/gzys.js",
+      "type": 100
+    },
+    {
+      "name": "韩剧看看",
+      "version": 2,
+      "webSite": "https://www.hanjukankan.com",
+      "instance": "hjkk20240624",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/hjkk.js",
+      "type": 100
+    },
+    {
+      "name": "虎斑盘",
+      "version": 1,
+      "webSite": "http://103.45.162.207:20720",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/huban.js",
+      "type": 101
+    },
+    {
+      "name": "aggl",
+      "version": 1,
+      "webSite": "https://anime.girigirilove.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/aggl.js",
+      "type": 101
+    },
+    {
+      "name": "两个bt",
+      "version": 2,
+      "webSite": "https://www.bttwoo.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/bttwo.js",
+      "type": 101
+    },
+    {
+      "name": "厂长影视",
+      "version": 2,
+      "webSite": "https://www.czzy77.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/changZhang20240614.js",
+      "type": 101
+    },
+    {
+      "name": "clicli",
+      "version": 1,
+      "webSite": "https://www.clicli.pro",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/clicli.js",
+      "type": 101
+    },
+    {
+      "name": "蛋蛋剧",
+      "version": 2,
+      "webSite": "https://www.dandanju.tv",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/dandanju.js",
+      "type": 101
+    },
+    {
+      "name": "短剧天堂",
+      "version": 2,
+      "webSite": "https://duanjutt.tv",
+      "instance": "duanjutt20240922",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/duanjutt.js",
+      "type": 100
+    },
+    {
+      "name": "多多盘",
+      "version": 3,
+      "webSite": "https://tv.yydsys.top",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/duoduo.js",
+      "type": 101
+    },
+    {
+      "name": "eacg",
+      "version": 1,
+      "webSite": "https://eacg1.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/eacg.js",
+      "type": 101
+    },
+    {
+      "name": "eacg2",
+      "version": 1,
+      "webSite": "https://eacg1.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/eacg2.js",
+      "type": 101
+    },
+    {
+      "name": "4k-av",
+      "version": 2,
+      "webSite": "https://4k-av.com",
+      "instance": "www4kav20240705",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/4kav.js",
+      "type": 100
+    },
+    {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "name": "🐝如意",
+      "type": 0
+    },
+    {
+      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "name": "🐝黑木耳",
+      "type": 0
+    },
+    {
+      "api": "https://cjhwba.com/api.php/provide/vod/",
+      "name": "🐝华为吧",
+      "type": 0
+    }
+  ],
+  "live": [
+    {
+      "name": "📺电视直播",
+      "api": "https://tv.iill.top/m3u/Gather",
+      "type": 10,
+      "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
+    },
+    {
+      "name": "🎥网络直播",
+      "api": "https://tv.iill.top/m3u/Live",
+      "type": 10,
+      "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
+    },
+    {
+      "name": "🚴‍♂️体育直播",
+      "api": "https://tv.iill.top/m3u/Sport",
+      "type": 10,
+      "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
+    }
+  ]
+}
