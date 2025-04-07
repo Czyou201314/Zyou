@@ -23,7 +23,7 @@
         
         {
             "name": "弹幕V102",
-            "url": "https://zyou.pages.dev/TV/dm10.js",
+            "url": "https://zyou.pages.dev/CC/dmV102.js",
             "codeID": "GrLpTPWlxvDXv5LsL6iOsY8AUZJWqE5x",
             "remark": "别那么执着，搜不到就算了",
             "type": 400,
