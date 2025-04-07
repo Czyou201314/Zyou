@@ -24,14 +24,14 @@
             "codeID": "uLw1JV3TG3FcJbLXOymm6Xp8d4JC3NjR",
             "remark": "别那么执着，搜不到就算了",
             "type": 400,
-            "version": 10
+            "version": "10"
         },
         {
             "name": "dandanPlay 弹幕",
             "remark": "数据来自 弹弹Play",
             "url": "https://gitee.com/woleigedouer/uzVideo-extensions/raw/main/danMu/js/danMu.js",
             "type": 400,
-            "version": 1
+            
         }
     ],
     "live": [
