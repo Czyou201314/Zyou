@@ -19,12 +19,13 @@
     ],
     "danMu": [
         {
-            "name": "V10danm",
+            "name": "测试弹幕V10",
             "url": "https://zyou.pages.dev/CC/dmV102.js",
-            "codeID": "uLw1JV3TG3FcJbLXOymm6Xp8d4JC3NjR",
-            "remark": "别那么执着，搜不到就算了",
+            "codeID": "CNvXwjPskqxbJPPevV0vuOpfanjOXj7t",
+            "remark": "搜不到就算了",
             "type": 400,
-            "version": "10"
+            "version": 5
+        
         },
         {
             "name": "dandanPlay 弹幕",
