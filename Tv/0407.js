@@ -26,14 +26,8 @@
             "type": 400,
             "version": 5
         
-        },
-        {
-            "name": "dandanPlay 弹幕",
-            "remark": "数据来自 弹弹Play",
-            "url": "https://gitee.com/woleigedouer/uzVideo-extensions/raw/main/danMu/js/danMu.js",
-            "type": 400,
-            
         }
+        
     ],
     "live": [
         {
