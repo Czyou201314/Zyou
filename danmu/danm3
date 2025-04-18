@@ -2,7 +2,7 @@
   "spider": "./ces.png;md5;d3c73166f177581a6a547781dd6d9ea3",
 
   "sites": [
-    {"key":"豆瓣","name":"zyou弹幕源3","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
+    {"key":"豆瓣","name":"zyou第三弹幕源","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
 
     {"key":"瓜子","name":"🍉瓜子┃弹幕","type": 3,"api":"csp_GuaziGuard","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
     {"key":"热播弹幕版","name":"📺热播┃弹幕","type": 3,"api":"csp_TianTianGuard","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true, "site": 0}, "timeout": 10},
