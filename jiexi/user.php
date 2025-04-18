@@ -25,7 +25,7 @@ $user = array(
 
 		'online' => '1', //当前无法解析的地址是否启动备用解析接口  默认开启,1:开启,0:关闭  开启时要在下面填入备用解析接口
   
-		'ather' => 'https://www.yy44.club/jiexi/?url=', //已为大家设置好备用接口,无特殊要求可以不用更改,备用接口有小gg,如果不需要删除即可.//填写实例：'ather' => 'https://www.yy44.club./jiexi?url=',
+		'ather' => 'https://zyou.pages.dev/jx/m1907.html?m1907jx=', //已为大家设置好备用接口,无特殊要求可以不用更改,备用接口有小gg,如果不需要删除即可.//填写实例：'ather' => 'https://www.yy44.club./jiexi?url=',
 
 		'dplayer' => 'C先生解析,https://jx.hh66.xyz', //用户设置dplayer播放器右键,不设置请留空。填写实例:'dplayer' => '猫先生解析,https://jx.hh66.xyz.'
 		
