@@ -7,7 +7,41 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
-        },
+        },{
+      "key": "哔哩",
+      "name": "哔哩｜官源",
+      "type": 3,
+      "api": "./czyx/apiv221drpy2.min.js",
+      "ext": "./czyx/哔哩视频.js"
+    },
+    {
+      "key": "腾讯视频",
+      "name": "腾讯｜视频",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/腾讯视频.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "优酷｜视频",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/优酷视频.js"
+    },
+    {
+      "key": "芒果视频",
+      "name": "芒果｜视频",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/芒果视频.js"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇异｜视频",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/爱奇艺.js"
+    },
                 {
             "key": "小苹果弹幕",
             "name": "小苹果｜弹幕",
