@@ -42,10 +42,8 @@
 ,
 	
 			{"key":"三六零弹幕","name":"〔弹幕线路①〕","type":3,"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,
-			"ext":{"danmu":true}},
-			
-		{"key":"荐片弹幕","name":"〔弹幕线路②〕","type":3,"api":"csp_Jianpian",
-		"ext":{"danmu":true}}
+			"ext":{"danmu":true}}
+		
 ],
 	 
 "parses":
