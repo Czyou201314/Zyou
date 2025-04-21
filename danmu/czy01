@@ -3,7 +3,43 @@
 "sites":
 	[
 	{"key":"逗比","name":"〔热剧榜单〕","type":3,"api":"./JS/drpy.min.js","ext":"./JS/d.b.js","searchable":0,"quickSearch":0,"filterable":1},
-	
+
+{
+      "key": "bb",
+      "name": "官道小里",
+      "type": 3,
+      "api": "./czyx/apiv221drpy2.min.js",
+      "ext": "./czyx/哔哩视频.js"
+    },
+    {
+      "key": "tt",
+      "name": "官道小鹅",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/腾讯视频.js"
+    },
+    {
+      "key": "yy",
+      "name": "官道小䔯",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/优酷视频.js"
+    },
+    {
+      "key": "mm",
+      "name": "官道小果",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/芒果视频.js"
+    },
+    {
+      "key": "aa",
+      "name": "官道小乙",
+      "type": 3,
+      "api": "./czyx/apiv239drpy2.min.js",
+      "ext": "./czyx/爱奇艺.js"
+    }
+,
 	
 			{"key":"三六零弹幕","name":"〔弹幕线路①〕","type":3,"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,
 			"ext":{"danmu":true}},
