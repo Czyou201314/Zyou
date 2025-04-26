@@ -20,63 +20,15 @@
     },
     {
       "key": "提醒",
-      "name": "仅用作学习交流使用，请于24小时之内进行清除",
+      "name": "4月26日资源已更新，刷新请重置软件",
       "type": 3
     },
-    {
-      "key": "测试",
-      "name": "应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
+    
     {
       "key": "设置",
       "name": "网弹|设置",
       "type": 3,
       "api": "csp_HBset"
-    },
-    {
-      "key": "网盘zyou",
-      "name": "推弹|zyou",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "dutoken": "",
-        "p123token": "",
-        "token": "",
-        "cookie": "",
-        "uccookie": "",
-        "site": "http://103.45.162.207:20720/"
-      }
-    },
-    {
-      "key": "P123",
-      "name": "P123|zyou",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "dutoken": "",
-        "p123token": "",
-        "token": "",
-        "cookie": "",
-        "uccookie": "",
-        "site": "http://123.666291.xyz/"
-      }
-    },
-    {
-      "key": "短剧夸克2",
-      "name": "夸克|短剧1",
-      "type": 3,
-      "api": "csp_HBqkDj2"
-    },
-    {
-      "key": "短剧夸克1",
-      "name": "夸克|短搜2",
-      "type": 3,
-      "api": "csp_HBqkDj"
     },
     {
       "key": "馆源",
