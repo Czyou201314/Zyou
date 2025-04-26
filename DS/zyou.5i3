@@ -1,7 +1,7 @@
 {
  "spider": "",
 	"sites":[
-{"key":"T4-douban","name":"影视-豆瓣(T4)","type":4,"api":"https://catbox.n13.club/t9/douban.php"},
+{"key":"T4-douban","name":"4月26日资源已更新，请重置软件刷新资源，资源来源网络，请勿信资源内的广告或者公众号信息","type":4,"api":"https://catbox.n13.club/t9/douban.php"},
 {"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
 {"key":"djmv","name":"音乐-DJMV(T4)","type":4,"api":"https://catbox.n13.club/t9/djmv.php"},
 
