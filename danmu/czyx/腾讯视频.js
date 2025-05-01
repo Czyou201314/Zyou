@@ -670,14 +670,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://222.186.57.24:7600/dm/dm.php?url=" + input.split("?")[0]
+                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://222.186.57.24:7600/dm/dm.php?url=" + input.split("?")[0]
+                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -685,7 +685,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://222.186.57.24:7600/dm/dm.php?url=" + input.split("?")[0]
+                danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
             };
         }
     }),
