@@ -1,6 +1,6 @@
 {
   "spider": "https://zyou.pages.dev/danmu/okdanmu.jar;md5;d3c73166f177581a6a547781dd6d9ea3",
-
+"logo":"https://zyou.pages.dev/DS/czy.gif",
   "sites": [
     {"key":"豆瓣","name":"zyou第三弹幕源","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
 
