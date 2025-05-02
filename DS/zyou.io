@@ -1,5 +1,7 @@
 {"urls":
 	[
+{"url":"https://zyou.pages.dev/danmu/danm3","name":"第二弹幕源"}]
+},
 {"url":"https://zyou.pages.dev/DS/zyou.5i4","name":"zyou弹之主调"},
 
 {"url":"https://zyou.pages.dev/DS/zyou.5i3","name":"c资源(无弹幕)"},
@@ -14,7 +16,5 @@
 
 {"url":"https://zyou.pages.dev/danmu/czy01","name":"初版弹幕源"}	,
 
-{"url":"https://zyou.pages.dev/Tv/danmu/淡淡的幕君","name":"第一弹幕源"},
+{"url":"https://zyou.pages.dev/Tv/danmu/淡淡的幕君","name":"第一弹幕源"}
 
-{"url":"https://zyou.pages.dev/danmu/danm3","name":"第二弹幕源"}]
-}
