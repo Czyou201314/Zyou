@@ -1,6 +1,6 @@
 {"urls":
 	[
-{"url":"https://zyou.pages.dev/danmu/danm3","name":"第二弹幕源"}
+{"url":"https://zyou.pages.dev/danmu/danm3","name":"第二弹幕源"},
 
 {"url":"https://zyou.pages.dev/DS/zyou.5i4","name":"zyou弹之主调"},
 
