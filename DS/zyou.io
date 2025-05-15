@@ -5,7 +5,7 @@
 
 {"url":"http://zyou.pages.dev/DS/zyou.5i4","name":"zyou弹之主调"},
 
-
+{"url":"https://14627.kstore.space/api.json","name":"腾优芒直连4K小白资源"},
 
 
 {"url":"http://zyou.pages.dev/danmu/czy01","name":"初版弹幕源"}	,
