@@ -679,14 +679,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
+                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=a5j265250620&url=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
+                    danmaku: "https://www.lintech.work/api/danmu/danmu?token=a5j265250620&url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -694,7 +694,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=" + input.split("?")[0]
+                danmaku: "https://www.lintech.work/api/danmu/danmu?token=a5j265250620&url=" + input.split("?")[0]
             };
         }
     }),
