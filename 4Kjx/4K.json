@@ -4,7 +4,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "4K线路",
+            "name": "解析4K测试路线",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -117,34 +117,7 @@
             }
         },
         
-        {
-            "name": "4K必备解析(虎斑)",
-            "type": "1",
-            "url": "http://103.45.162.207:13131/小虎斑.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],"header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
+        
         {
             "name": "无上",
             "type": "1",
