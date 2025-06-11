@@ -3,14 +3,8 @@
 "logo": "./czy.gif",
 
   "sites": [
-{
-            "key": "豆瓣",
-            "jar": "./doub",
-            "name": "っ余影相绊༽",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
+ {"key":"douban","name":"っ余影相绊༽",
+    "type":4,"api":"https://catbox.n13.club/t9/douban.php"},
     
     {
       "key": "提醒",
