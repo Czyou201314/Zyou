@@ -26,6 +26,13 @@
       "api": "csp_HBconfig"
     }, 
 {
+      "key": "jarcai",
+      "name": "文才|叹幕",
+      "type": 3,
+      "api": "csp_Wcai",
+      "ext": "https://www.gs4x7nq4.com"
+    },
+{
       "key": "酷浪",
       "name": "酷浪|叹幕",
       "type": 3,
@@ -53,13 +60,7 @@
       "api": "csp_HBqiJi",
       "ext": "https://www.fjvtw.com"
     },
-    {
-      "key": "jarcai",
-      "name": "文才|叹幕",
-      "type": 3,
-      "api": "csp_Wcai",
-      "ext": "https://www.gs4x7nq4.com"
-    },
+
     {
       "key": "米兔",
       "name": "米兔|叹幕",
