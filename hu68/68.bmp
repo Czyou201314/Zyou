@@ -4,21 +4,28 @@
 
   "sites": [
 {"key":"douban","name":"っ余影相绊༽",
-    "type":4,"api":"https://catbox.n13.club/t9/douban.php"},
+{
+            "key": "豆瓣",
+            "jar": "./doub",
+            "name": "っ余影相绊༽",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
     
     {
       "key": "提醒",
       "api": "csp_Douban2",
-      "name": "仅用作学习交流使用，请于24小时之内进行清除",
+      "name": "资源引用小虎斑资源，下载后请于24小时之内删除",
       "type": 3
     },
 
     {
       "key": "设置",
-      "name": "网弹|新设置",
+      "name": "网稀弹自定义",
       "type": 3,
       "api": "csp_HBconfig"
-    },    {
+    },  {
       "key": "酷浪",
       "name": "酷浪|叹幕",
       "type": 3,
