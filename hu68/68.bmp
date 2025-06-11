@@ -3,7 +3,6 @@
 "logo": "https://14700.kstore.space/xhb/gif/czy.gif",
 
   "sites": [
-
 {
             "key": "豆瓣",
             "jar": "./doub",
@@ -25,7 +24,8 @@
       "name": "网稀弹自定义",
       "type": 3,
       "api": "csp_HBconfig"
-    },  {
+    }, 
+{
       "key": "酷浪",
       "name": "酷浪|叹幕",
       "type": 3,
