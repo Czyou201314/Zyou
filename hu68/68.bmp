@@ -1,9 +1,9 @@
 {
   "spider": "./custom_spider.jar",
-
+"logo": "https://14700.kstore.space/xhb/gif/czy.gif",
 
   "sites": [
-{"key":"douban","name":"っ余影相绊༽",
+
 {
             "key": "豆瓣",
             "jar": "./doub",
