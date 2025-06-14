@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转中...</title>
+    <style>
+        /* 隐藏所有内容 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background: transparent;
+            overflow: hidden;
+        }
+        
+        /* 确保没有任何内容可见 */
+        body * {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+    </style>
+    
+    <!-- 首选：JavaScript立即跳转 -->
+    <script>
+        // 立即执行跳转（首选方法）
+        try {
+            // 使用replace方法避免在历史记录中留下当前页
+            window.location.replace("https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk");
+        } catch (e) {
+            // 如果replace失败，尝试使用href
+            window.location.href = "https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk";
+        }
+    </script>
+    
+    <!-- 后备：meta刷新跳转（兼容所有浏览器） -->
+    <meta http-equiv="refresh" content="0; url=https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk">
+</head>
+<body>
+    <!-- 隐藏的跳转链接作为最终后备 -->
+    <a href="https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk" style="display: none;">跳转</a>
+    
+    <!-- 额外的JavaScript保障 -->
+    <script>
+        // 确保页面立即跳转
+        setTimeout(function() {
+            try {
+                window.location.replace("https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk");
+            } catch (e) {
+                window.location.href = "https://jihulab.com/zyou/Tv/-/raw/main/yyxb.apk";
+            }
+        }, 50);
+    </script>
+</body>
+</html>
