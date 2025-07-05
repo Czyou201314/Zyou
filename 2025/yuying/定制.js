@@ -32,6 +32,6 @@
     "live": "",
     "upgrade": "https://gh.llkk.cc/https://raw.githubusercontent.com/bestpvp/uateCenter/refs/heads//main/",
     "source_backdoor_plus": "https://zyoutv.xyz/2025/yuying/yyHD.json",
-    "source_backdoor": "https://www.lintech.work/标准杯/main.json",
+    "source_backdoor": "https://zyoutv.xyz/2025/yuying/yyHD.json",
     "customization": 1
 }
