@@ -1,7 +1,7 @@
 {
     "force_refresh": 0,
     "app_upgrade": 1,
-    "source": "https://zyoutv.xyz/2025/yuying/TV转接.json",
+    "source": "https://zyoutv.xyz/2025/yuying/yyHD.json",
     "source_plus": "",
     "app_message": "程序默认启动HD专享路线无需设置，本APP基于开源免费项目二次开发, 兼容tvbox标准接口, 仅供内部测试学习交流使用\n\n使用过程中若出现广告均为三方插入, 与本APP无关，请勿相信。",
     "jar_message": "感谢使用",
