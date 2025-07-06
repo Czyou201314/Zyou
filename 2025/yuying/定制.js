@@ -3,7 +3,7 @@
     "app_upgrade": 1,
     "source": "https://d.kstore.dev/download/14700/2025/yyxb/yyHD.json",
     "source_plus": "",
-    "app_message": "程序默认启动HD专享路线无需设置，本APP基于开源免费项目二次开发, 兼容tvbox标准接口, 仅供内部测试学习交流使用\n\n使用过程中若出现广告均为三方插入, 与本APP无关，请勿相信。",
+    "app_message": "程序默认启动HD专享路线无需设置，部分设备没有自动给予存储权限的无法使用，需要点击设置界面–自捣资源–权限 给予权限。本APP基于开源免费项目二次开发, 兼容tvbox标准接口, 仅供内部测试学习交流使用\n\n使用过程中若出现广告均为三方插入, 与本APP无关，请勿相信。",
     "jar_message": "感谢使用",
     "filter": [
         "王二小放牛娃.xyz",
