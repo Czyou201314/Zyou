@@ -1,1 +1,482 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<script>
+
+var _hmt = _hmt || [];
+
+(function() {
+
+  var hm = document.createElement("script");
+
+  hm.src = "https://hm.baidu.com/hm.js?30d8d220577fbbb88f2122854769e088";
+
+  var s = document.getElementsByTagName("script")[0]; 
+
+  s.parentNode.insertBefore(hm, s);
+
+})();
+
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="instap">
+    <link rel="icon" href="./favicon1.ico">
+    <title>余影相绊</title>
+    <link href="assets/m2.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style2.css">
+    <style>
+
+        /* 悬浮音乐播放器样式 */
+        #music-player {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 20px;
+            padding: 8px 12px;
+            color: white;
+            z-index: 9999;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            max-width: 220px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        #player-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #play-btn {
+            background: #3498db;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+        #play-btn:hover {
+            background: #2980b9;
+        }
+        #track-name {
+            font-size: 12px;
+            max-width: 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+
+
+        /* 卡片样式 */
+        .item {
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        .item:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        
+        /* 模态框样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #FFF;
+            width: 80%;
+            max-width: 700px;
+        }
+        .close {
+            color: #fff;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover, .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        
+        /* 响应式调整 */
+        @media (max-width:600px) {
+            .modal-content {
+                width: 90%;
+                padding: 15px;
+            }
+        }
+
+    </style>
+    <style>
+        /* 网页版选择弹窗样式 - 极简 */
+        #web-options-modal {
+            display: none;
+            position: fixed;
+            z-index: 9998;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        #web-options-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 300px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #web-options-content a {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            background: #f1f1f1;
+            text-decoration: none;
+            color: #333;
+            border-radius: 4px;
+        }
+        #web-options-content a:hover {
+            background: #ddd;
+        }
+        #web-options-close {
+            padding: 8px 16px;
+            background: #6a11cb;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 左上角悬浮音乐播放器 -->
+    <div id="music-player">
+        <div id="player-controls">
+            <button id="play-btn">▶</button>
+            <span id="track-name">音乐加载中...</span>
+        </div>
+    </div>
+    
+
+
+
+
+    <div id="app">
+        <div class="header">
+            <div class="banner">
+                <div class="logo">
+                    <img src="./assets/tx3.png" alt="">
+                </div>
+            </div>
+            <div class="author-name1">全球弹幕影视 + 动漫 + 短剧 + 综艺 + 学习</div>
+            <p class="desc"> </p>
+            
+        <div  class="author-name2">
+
+<p>免注册免登录无广告无收费即开即看秒播不卡弹幕影视聚全</p>
+    </div>
+    <div  class="author-name1">
+
+<p> 
+</p>
+    </div>
+        <div class="body">
+            <div class="tab-list">
+                <div class="tab-item zy">
+                    <span class="text">余影</span>
+                </div>
+                <div class="tab-item lx">
+                    <span class="text">相绊</span>
+                </div>
+                <div class="tab-item dh">
+                    <span class="text">分享</span>
+                </div>
+            </div>
+            <div class="app-list a1">
+                <a href="./xz/余影相绊7.0.apk" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./favicon1.ico" alt="">
+                        </div>
+                        <p class="app-name">手机追光版</p>
+                    </div>
+                </a>
+                <a href="./xz/余影卿辞.apk" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/tx1.png" alt="">
+                        </div>
+                        <p class="app-name">手机卿辞版</p>
+                    </div>
+                </a>
+                <a href="./xz/轻风.apk" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./favicon1.ico" alt="">
+                        </div>
+                        <p class="app-name">手机轻风版</p>
+                    </div>
+                </a>
+                <a href="./xz/余影相绊TV.apk" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/tx1.png" alt="">
+                        </div>
+                        <p class="app-name">余影电视版</p>
+                        </div>
+                </a>
+                <a href="javascript:void(0)" class="item" onclick="showWebOptions()" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./wy.png" alt="">
+                        </div>
+                        <p class="app-name">电脑摸鱼端(苹果端亦然)</p>
+                    </div>
+                </a>
+                <a href="./wp/index.php" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/wp.png" alt="">
+                        </div>
+                        <p class="app-name">免费存盘</p>
+                    
+                     </div>
+                </a>
+            </div>
+            <div class="app-list a2">
+                <a href="javascript:void(0);" class="item" style="opacity: 1;" onclick="showModal('./assets/Wx1.png')">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/Wx1.png" alt="">
+                        </div>
+                        <p class="app-name">余影微信</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="item" style="opacity: 1;" onclick="showModal('./assets/Qq1.png')">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/Qq1.png" alt="">
+                        </div>
+                        <p class="app-name">余影Q群</p>
+                                            
+                        
+                    </div>
+                </a>
+              </a>
+                <a href="javascript:void(0);" class="item" style="opacity: 1;" onclick="showModal('./assets/Qq1.png')">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/lyb.png" alt="">
+                        </div>
+                        <p class="app-name">软件说明</p>
+                            
+            </div>
+                
+              
+                <a href="./fenx/index.php" class="item" target="_blank" style="opacity: 1;">
+                    <div class="content-wrap">
+                        <div class="img-wrap">
+                            <img src="./assets/lyb.png" alt="">
+                        </div>
+                        <p class="app-name">留言板</p>
+                       </div>    
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- 模态框 -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Image" style="width:100%">
+        </div>
+    </div>
+    
+    <!-- 网页版选择弹窗 -->
+    <div id="web-options-modal">
+        <div id="web-options-content">
+            <h3>独家余影官弹专线</h3>
+            <a href="http://love002.back1.idcfengye.com/" target="_blank">无广弹幕网页端①</a>
+         
+            <a href="http://backup.frp0.top:8542/" target="_blank">无广弹幕网页端②</a>
+          
+        <button id="web-options-close" onclick="hideWebOptions()">关闭</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        // 音乐播放器逻辑
+        let currentTrackIndex = -1;
+        const musicList = [
+            {name: "月", url: "./yle/01.mp3"},
+{name: "满", url: "./yle/02.mp3"},
+{name: "希", url: " ./yle/03.mp3"},
+{name: "凉", url: " ./yle/04.mp3"},
+            {name: "匆", url: "./yle/05.mp3"}
+      
+        ];
+        const audio = new Audio();
+        let userInteracted = false;
+
+        // 随机选择音乐
+        function selectRandomTrack() {
+            const randomIndex = Math.floor(Math.random() * musicList.length);
+            if (randomIndex !== currentTrackIndex) {
+                currentTrackIndex = randomIndex;
+                return musicList[currentTrackIndex];
+            }
+            return selectRandomTrack();
+        }
+
+        // 播放音乐
+        function playRandomTrack() {
+            if (!userInteracted) return;
+            
+            const track = selectRandomTrack();
+            document.getElementById('track-name').textContent = track.name;
+            audio.src = track.url;
+            
+            const playPromise = audio.play();
+            
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    console.log("自动播放失败:", error);
+                    // 用户首次交互后重试
+                    document.addEventListener('click', tryPlayAfterInteraction, {once: true});
+                }).then(() => {
+                    document.getElementById('play-btn').textContent = "❚❚";
+                });
+            }
+        }
+
+        // 用户交互后尝试播放
+        function tryPlayAfterInteraction() {
+            userInteracted = true;
+            playRandomTrack();
+        }
+
+        // 初始化播放器
+        const playBtn = document.getElementById('play-btn');
+        playBtn.addEventListener('click', function() {
+            if (audio.paused) {
+                if (audio.src === "") playRandomTrack();
+                else {
+                    audio.play();
+                    playBtn.textContent = "❚❚";
+                }
+            } else {
+                audio.pause();
+                playBtn.textContent = "▶";
+            }
+        });
+
+        // 监听结束事件自动播放下一首
+        audio.addEventListener('ended', playRandomTrack);
+
+        // 页面加载后模拟用户交互
+        document.addEventListener('DOMContentLoaded', function() {
+            userInteracted = true;
+            setTimeout(playRandomTrack, 500);
+        });
+
+        // 监听用户交互（点击页面任意位置）
+        document.addEventListener('click', tryPlayAfterInteraction, {once: true});
+
+        // jQuery文档就绪函数
+        jQuery(document).ready(function($) {
+            // 默认显示第一个应用列表
+            $(".a1").css("display", "flex");
+            $(".a2").css("display", "none");
+            $(".a3").css("display", "none");
+
+            // 导航按钮点击事件
+            $(".zy").click(function() {
+                $(".a1").css("display", "flex");
+                $(".a2").css("display", "none");
+                $(".a3").css("display", "none");
+            });
+            $(".lx").click(function() {
+                $(".a1").css("display", "none");
+                $(".a2").css("display", "flex");
+                $(".a3").css("display", "none");
+            });
+            $(".dh").click(function() {
+                $(".a1").css("display", "none");
+                $(".a2").css("display", "none");
+                $(".a3").css("display", "flex");
+            });
+        });
+        
+        // 显示模态框
+        function showModal(imageSrc) {
+            $("#modalImage").attr("src", imageSrc);
+            $("#myModal").css("display", "block");
+        }
+
+        // 关闭模态框
+        $(".close").click(function() {
+            $("#myModal").css("display", "none");
+        });
+
+        // 点击模态框外部关闭模态框
+        $(window).click(function(event) {
+            if ($(event.target).is("#myModal")) {
+                $("#myModal").css("display", "none");
+            }
+        });
+        
+        // 网页版选择弹窗函数
+        function showWebOptions() {
+            document.getElementById("web-options-modal").style.display = "block";
+        }
+        
+        function hideWebOptions() {
+            document.getElementById("web-options-modal").style.display = "none";
+        }
+        
+        // 点击弹窗外部关闭
+        document.getElementById("web-options-modal").addEventListener("click", function(event) {
+            if (event.target === this) {
+                hideWebOptions();
+            }
+        });
+    </script>
+    <script src="assets/yinghua.js"></script>
+</body>
+  </html>
